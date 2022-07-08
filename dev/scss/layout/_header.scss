@@ -1,0 +1,48 @@
+.#{$global} {
+    &-header {
+        background: $white;
+    }
+}
+
+.theme-header {
+    .logo {
+        max-width: 246px; 
+        flex-basis:246px;
+        
+        @include media-breakpoint-up(lg){
+            max-width: 350px; 
+            flex-basis:350px;            
+        }
+    }
+}
+
+.nav-drop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: $teal;
+    z-index: 100;
+    color: $white;
+    transform: translateX(-100%);
+    transition: transform .3s linear;
+    overflow-y: auto;
+    
+    .nav-active & {
+        transform: translateX(0);
+        
+    }
+    
+    @include media-breakpoint-up(lg){
+        position: static;
+        background: $white;
+        color: $primary;
+        transform: none;
+        overflow-y: hidden;
+    }
+}
+
+.nav-active {
+    overflow: hidden;
+}

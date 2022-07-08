@@ -1,0 +1,28 @@
+.#{$global} {
+    &-footer {
+        padding: rem(30px 0);
+    }
+}
+
+.theme-footer {    
+    form {
+        input {
+            @include placeholder {
+                color: $blush;
+            }
+        }       
+    }    
+}
+
+
+
+.toggle-list{
+    display: none;
+    @include media-breakpoint-up(lg){
+        display: block;
+    }
+}
+
+.show-element {
+    display: block !important;
+}
