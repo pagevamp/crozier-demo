@@ -77,11 +77,12 @@ yarn build
         * Include has modules folder where all developed modules section are inserted.
         * Global Modules html like header, footer.html are kept outside
         * Each Modules and its variation should have separate modules scss and javascript file if needed within the modules.
-    * script (Used to define global and modular javascript within)
+    * scripts (Used to define global and modular javascript within)
         * Global functions and utility should be present within app.js which will be called throughout the files.
         * Separate modules javascript should have same name as modules developed and should be included with the modules inside <b>Includes</b> folder with same name.
     * scss (Used to define global app.scss and design.scss as entry point. app.scss is used globally and design.scss is used to define modular scss file associated within the files)
         * app.css complied should be used globally.
+        * app.scss contains all bootstrap5 needed global things like variables(colors, size ...) , buttons , form input  which are being used throughout the site.
         * design.scss will contain all the modular css associated with the modules and included on our architecture but should be implemented individually within the modules used while developing on sitecore.
 * gulpfile.js / gulpSettings (Used to automate the process with gulp 4 and webpack )
 
