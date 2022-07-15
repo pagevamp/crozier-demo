@@ -1,6 +1,6 @@
 import 'popper.js';
 import 'bootstrap/js/dist/modal';
-import { swiper } from './slider';
+// import { swiper } from './slider';
 import { openClose } from './openClose';
 import { burgerMenu } from './burger-menu';
 import { validation } from './validation';
@@ -17,7 +17,7 @@ class global {
     constructor() {
         this.myModal = document.getElementById('exampleModal')
         validation();
-        this.slider();
+        // this.slider();
         openClose();
         burgerMenu();
     }

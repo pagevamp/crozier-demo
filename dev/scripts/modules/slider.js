@@ -29,8 +29,8 @@ export function swiper() {
       el: ".swiper-pagination",
     },
   });
-  
-  
 }
+
+swiper();
 
 

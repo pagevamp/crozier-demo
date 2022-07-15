@@ -86,6 +86,9 @@ yarn build
         * design.scss will contain all the modular css associated with the modules and included on our architecture but should be implemented individually within the modules used while developing on sitecore.
 * gulpfile.js / gulpSettings (Used to automate the process with gulp 4 and webpack )
 
+## Example Usage
+    * For Example 
+
 
 
 
