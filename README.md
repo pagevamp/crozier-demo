@@ -87,7 +87,13 @@ yarn build
 * gulpfile.js / gulpSettings (Used to automate the process with gulp 4 and webpack )
 
 ## Example Usage
-    * For Example 
+* For Example we have slider module which have slider.html, slider.js and slider.scss or slider.min.css which will be inside dist folder(Compiled version of dev folder including all complied code).
+* slider.html is inside dev/includes/section.slider.html
+* slider.js iis inside script/modules/slider.js
+* slider.scss is inside scss/styles/slider.scss
+* With this 3 files slider modules is made which can be used as per need on the pages.
+
+
 
 
 
